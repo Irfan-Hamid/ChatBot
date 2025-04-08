@@ -11,7 +11,7 @@ This project fine-tunes Meta's `LLaMA-2-7b-chat-hf` model to behave like a chara
 - **Prompt Format:** Chat template using the model's built-in `apply_chat_template`
 - **Training Framework:** Hugging Face `transformers.Trainer`
 
-## Hugging Face Resources
+## Trained Model & Dataset on Hugging Face
 
 - **Fine-tuned LoRA Adapter:** [ChatBot-lora-7b](https://huggingface.co/IrfanHamid/ChatBot-lora-7b)
 - **Training Dataset:** [chat-dataset](https://huggingface.co/datasets/IrfanHamid/chat-dataset)
