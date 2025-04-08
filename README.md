@@ -3,7 +3,7 @@
 
 This project fine-tunes Meta's `LLaMA-2-7b-chat-hf` model to behave like a character-based chatbot (specifically inspired by Spider-Man,Peter Parker). The model is trained using a Q&A dataset and responds in a witty, heartfelt tone, capturing the iconic persona of the superhero.
 
-## 🧠 Model Summary
+## Model Summary
 
 - **Base Model:** meta-llama/Llama-2-7b-chat-hf
 - **Fine-tuning Method:** LoRA (Low-Rank Adaptation) using `peft`
@@ -11,16 +11,16 @@ This project fine-tunes Meta's `LLaMA-2-7b-chat-hf` model to behave like a chara
 - **Prompt Format:** Chat template using the model's built-in `apply_chat_template`
 - **Training Framework:** Hugging Face `transformers.Trainer`
 
-## 🤖 Demo
+## Demo
 
 Use the fine-tuned model interactively via a Gradio app that lets you chat with the Spider-Man-inspired persona.
 
-## 🧩 Hugging Face Resources
+## Hugging Face Resources
 
 - **Fine-tuned LoRA Adapter:** [ChatBot-lora-7b](https://huggingface.co/IrfanHamid/ChatBot-lora-7b)
 - **Training Dataset:** [chat-dataset](https://huggingface.co/datasets/IrfanHamid/chat-dataset)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 CHATBOT/
@@ -30,7 +30,7 @@ CHATBOT/
 ├── README.md
 ```
 
-## 📝 Notes
+## Notes
 
 - This project is for **educational and personal portfolio purposes only**.
 - All character likeness, names, and styles related to Spider-Man are property of **Marvel**.
