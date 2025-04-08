@@ -23,7 +23,9 @@ CHATBOT/
 ├── LLM_ChatBot_Training.ipynb      # Notebook for dataset preparation, LoRA fine-tuning, and model upload to Hugging Face
 ├── LLM_Chatbot_Gradio.ipynb        # Notebook for loading the model from Hugging Face and running the Gradio interface
 ├── spiderman_chatbot_dataset.csv   # The Q&A dataset used for fine-tuning
-├── README.md
+├── README.md                       # Project overview
+├── LLM_Chatbot_Instructions.txt    # Setup and usage guide, including important notes on replacing user-specific commands
+
 ```
 
 ## Demo
