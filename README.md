@@ -1,5 +1,5 @@
 
-# LLM Spider-Persona Chatbot
+# LLM Character Chatbot using LLaMA 2
 
 This project fine-tunes Meta's `LLaMA-2-7b-chat-hf` model to behave like a character-based chatbot (specifically inspired by Spider-Man,Peter Parker). The model is trained using a Q&A dataset and responds in a witty, heartfelt tone, capturing the iconic persona of the superhero.
 
