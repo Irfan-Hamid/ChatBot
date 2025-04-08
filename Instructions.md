@@ -41,8 +41,8 @@ push_to_github(my_key, repo_url)
 
 These use my Hugging Face and GitHub accounts and are:
 
-1) For reference only  
-2) Do NOT run them as-is
+a) For reference only  
+b) Do NOT run them as-is
 
 If you'd like to push your own model or dataset, replace `"IrfanHamid/...` and `Irfan-Hamid/...` with your own usernames and repository names.
 
