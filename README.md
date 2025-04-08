@@ -11,10 +11,6 @@ This project fine-tunes Meta's `LLaMA-2-7b-chat-hf` model to behave like a chara
 - **Prompt Format:** Chat template using the model's built-in `apply_chat_template`
 - **Training Framework:** Hugging Face `transformers.Trainer`
 
-## Demo
-
-Use the fine-tuned model interactively via a Gradio app that lets you chat with the Spider-Man-inspired persona.
-
 ## Hugging Face Resources
 
 - **Fine-tuned LoRA Adapter:** [ChatBot-lora-7b](https://huggingface.co/IrfanHamid/ChatBot-lora-7b)
@@ -29,6 +25,14 @@ CHATBOT/
 ├── spiderman_chatbot_dataset.csv   # The Q&A dataset used for fine-tuning
 ├── README.md
 ```
+
+## Demo
+
+Use the fine-tuned model interactively via a Gradio app that lets you chat with the Spider-Man-inspired persona.
+
+Here’s a snapshot of the chatbot in action:
+
+<img width="1401" alt="Screenshot 2025-04-08 at 03 22 26" src="https://github.com/user-attachments/assets/1b51c45b-c64c-4c10-a47c-0385268109b1" />
 
 ## Notes
 
